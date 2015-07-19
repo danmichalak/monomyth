@@ -1,0 +1,14 @@
+<!-- Chapter list for each series -->
+<div id="content">
+	<br>
+	<div class="listTitle">Select Chapter</div>
+	<ul class="list">
+		<li ng-repeat="chapter in chapters" class="listItem">
+			<a href="#/comics/{{chapter.comic}}/{{chapter.coverpage}}"><div class="archiveButton">
+				<img ng-src="/img/icons/comics/{{chapter.comic}}/{{chapter.comic}}Chapter{{chapter.chapter}}.png" class="archiveSymbol">
+				<img ng-src="/img/icons/comics/{{chapter.comic}}/{{chapter.comic}}Chapter{{chapter.chapter}}title.png" class="archiveTitle">
+			</div></a>
+			<br><br>
+		</li>
+	</ul>
+</div>

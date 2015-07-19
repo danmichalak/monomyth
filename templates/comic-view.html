@@ -1,0 +1,31 @@
+<!-- View for each page of the comic -->
+<div class="pagerBox">
+	<ul class="list" id="pager1">
+		<li class="navItem"><a href="#/comics/{{comic}}/1" class="pagerLink"><img src="/img/buttons/first.png"></a></li>
+		<li class="navItem"><a href="#/comics/{{comic}}/{{prevPage}}" class="pagerLink"><img src="/img/buttons/prev.png"></a></li>
+		<li class="navItem"><a href="#/comics/{{comic}}/{{nextPage}}" class="pagerLink"><img src="/img/buttons/next.png"></a></li>
+		<li class="navItem"><a href="#/comics/{{comic}}/{{lastPage}}" class="pagerLink"><img src="/img/buttons/last.png"></a></li>
+	</ul>
+</div>
+<img ng-src="/img/comics/{{comic}}/{{page}}.png" class="comicBox">
+<div class="pagerBox">
+	<ul class="list" id="pager2">
+		<li class="navItem"><a href="#/comics/{{comic}}/1" class="pagerLink"><img src="/img/buttons/first.png"></a></li>
+		<li class="navItem"><a href="#/comics/{{comic}}/{{prevPage}}" class="pagerLink"><img src="/img/buttons/prev.png"></a></li>
+		<li class="navItem"><a href="#/comics/{{comic}}" class="pagerLink"><img src="/img/buttons/archive.png"></a></li>
+		<li class="navItem"><a href="#/comics/{{comic}}/{{nextPage}}" class="pagerLink"><img src="/img/buttons/next.png"></a></li>
+		<li class="navItem"><a href="#/comics/{{comic}}/{{lastPage}}" class="pagerLink"><img src="/img/buttons/last.png"></a></li>
+	</ul>
+</div>
+<div class="comicNotes">
+	<ul class="list">
+		<br>
+		<div class="comicNotesTitle">Posted {{day}} {{monthStr}} {{year}}</div>
+		<br>
+		<li ng-repeat="author in authors">
+			<div class="comicNotesTitle">{{author.name}}'s Notes:</div>
+			{{author.notes}}<br>
+			<br>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,245 @@
+/* ADS */
+.adLeaderboardContainer {
+	width: 728px;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* BODY AND MAJOR DIVS */
+body {
+	font-family: Helvetica;
+	background-color: #888888;
+	margin: 0px;
+}
+
+#header {
+	display: block;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container {
+	display: block;
+	width: 790px;
+	height: 1290px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #bbbbbb;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+#footer {
+	display: block;
+	width: 100%;
+	background-color: black;
+}
+
+#content {
+	margin-left: 10px;
+	width: 780px;
+	height: 1290px;
+	overflow: auto;
+}
+
+.title {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.errorImg {
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+
+/* LISTS */
+.list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.listTitle {
+	font-size: 125%;
+	font-weight: bold;	
+}
+
+.sectionTitle {
+	font-size: 200%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+/* HEADER */
+#siteBanner {
+	width: 800px;
+}
+
+
+/* NAVIGATION */
+#navBar {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navButton {
+	width: 120px;
+	height: 60px;
+}
+
+.navItem {
+	float: left;
+}
+
+.navLink {
+	display: block;
+	width: 120px;
+	height: 60px;
+	background-color: black;
+}
+
+
+/* PAGER */
+.pagerBox {
+	width: 790px;
+	height: 50px;
+	background-color: black;
+}
+
+.pagerLink {
+	display: block;
+	width: 100px;
+	height: 50px;
+	background-color: black;
+}
+
+#pager1 {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pager2 {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* PROFILES */
+.profileTitle {
+	font-weight: bold;
+}
+
+.profileImg {
+	width: 120px;
+	height: 120px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+
+/* NEWS */
+.newsAuthor {
+	font-size: 75%;
+	font-weight: bold;
+}
+
+.newsBody {
+	width: 760px;
+}
+
+.newsDate {
+	font-size: 75%;
+	font-weight: bold;
+}
+
+.newsTitle {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+
+/* ARCHIVE */
+.archiveButton {
+	width: 500px;
+	height: 100px;
+	background-color: black;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+.archiveSymbol {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.archiveTitle {
+	float: left;
+	width: 400px;
+	height: 100px;
+}
+
+
+/* COMIC VIEW */
+.comicBox {
+	display: block;
+	width: 790px;
+	height: 930px;
+	background-color: black;
+}
+
+.comicNotes {
+	width: 780px;
+	height: 260px;
+	margin-left: 10px;
+	overflow: auto;
+}
+
+.comicNotesTitle {
+	font-weight: bold;
+}
+
+/* CONTACT */
+.contactBoxLeft {
+	display: block;
+	width: 360px;
+	float: left;
+}
+
+.contactBoxRight {
+	display: block;
+	width: 360px;
+	float: left;
+	margin-left: 40px;
+}
+
+
+/* FOOTER */
+#footerContent {
+	margin-left: 10px;
+	font-size: 75%;
+	color: white;
+}
+
+.footerLink:link, .footerLink:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.footerCell {
+	padding-top: 15px;
+	padding-right: 40px;
+}

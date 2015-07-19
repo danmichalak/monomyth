@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="gwSite">
+	<head>
+		<meta charset="utf-8">
+		<title>Monomyth of Ages</title>
+		<meta name="description" content="Medieval fantasy webcomic.">
+		<meta name="keywords" content="Comic,Webcomic,Fantasy,Action,Adventure,Medieval">
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<script src="//code.angularjs.org/1.3.9/angular.min.js"></script>
+		<script src="//angular-ui.github.io/ui-router/release/angular-ui-router.min.js"></script>
+		<script src="/js/script.js"></script>		
+	</head>
+	<body>
+		<div ui-view="top" autoscroll="true"></div>
+		<br>
+		<div class="adLeaderboardContainer">
+		</div>
+		<br><br>
+		<header ui-view="header" id="header"></header>
+		<br>
+		<div ui-view="container"id="container"></div>
+		<br>
+		</div>
+		<br>
+		<div class="adLeaderboardContainer">
+		</div>
+		<br>
+		<footer ui-view="footer" id="footer"></footer>
+	</body>
+</html>
